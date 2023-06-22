@@ -215,14 +215,18 @@ onUiUpdate(() => {
   const nai2LocalArea = document.createElement("div");
   nai2LocalArea.id = "nai2local";
   nai2LocalArea.className = "overflow-hidden flex col gap-4";
-  nai2LocalArea.style = "padding: 0.4em 0em";
+  nai2LocalArea.style = "padding: 0.4em 0.2em";
 
   const convertBtn = createButton(
     "nai2localconvert",
-    "NAIConvert",
+    "[NAIConvert]",
     onClickConvert
   );
-  const undoBtn = createButton("nai2localUndo", "History", onClickUndo);
+  const undoBtn = createButton(
+    "nai2localUndo", 
+    "[History]", 
+    onClickUndo
+  );
 
   nai2LocalArea.appendChild(convertBtn);
   nai2LocalArea.appendChild(undoBtn);
