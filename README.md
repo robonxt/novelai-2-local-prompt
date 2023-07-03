@@ -1,3 +1,4 @@
+# Based off of [animerl/novelai-2-local-prompt](https://github.com/animerl/novelai-2-local-prompt)
 # novelai-2-local-prompt
 Script for Stable-Diffusion WebUI (AUTOMATIC1111) to convert the prompt format used by NovelAI.  
 
